@@ -1,10 +1,10 @@
 # introduce
 
-<h4>Go learn adalah source code belajar saya tentang golang programming</h4>
+<h5>Go learn adalah source code belajar saya tentang golang programming</h5>
 
-<h4>
+<h5>
 untuk menjalankan source code tersebut ada beberapa langkah yang harus di selesaikan:
-</h4>
+</h5>
 
 <br>
 
