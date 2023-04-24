@@ -6,8 +6,6 @@
 untuk menjalankan source code tersebut ada beberapa langkah yang harus di selesaikan:
 </h5>
 
-<br>
-
 # 1. install go language
 
 ```Bash
