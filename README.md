@@ -1,3 +1,5 @@
+![All Text](https://miro.medium.com/v2/resize:fit:1400/1*Ifpd_HtDiK9u6h68SZgNuA.png)
+
 # introduce
 
 <h5>Go learn adalah source code belajar saya tentang golang programming</h5>
