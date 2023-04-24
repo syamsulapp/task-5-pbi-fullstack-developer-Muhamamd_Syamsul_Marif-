@@ -31,6 +31,12 @@ nodemon --exec go run namafile.go --signal SIGTERM
 ```Bash
 #test via postman/insomnia
 
+# install postman
+https://www.postman.com/downloads/https://www.postman.com/downloads/
+
+# install insomnia
+https://insomnia.rest/downloadhttps://insomnia.rest/download
+
 #baseUrl
 localhost:8080 -> sesuaikan dengan base url kalian
 
