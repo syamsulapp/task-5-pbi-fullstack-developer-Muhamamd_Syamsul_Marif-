@@ -3,9 +3,9 @@ package main
 import "github.com/gin-gonic/gin"
 
 func dummyJson(res *gin.Context) {
-	var arr []int
+	var arr = []string{"apple", "banana", "mango", "durian", "pineapple"}
 	res.JSON(200, gin.H{
-		"message": append(arr, 1, 2, 3),
+		"data": append(arr[:3], "rambutan"),
 	})
 }
 
