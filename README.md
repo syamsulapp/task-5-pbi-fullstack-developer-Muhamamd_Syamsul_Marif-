@@ -40,7 +40,7 @@ https://insomnia.rest/downloadhttps://insomnia.rest/download
 #baseUrl
 localhost:8080 -> sesuaikan dengan base url kalian
 
-#endpoint test
+#endpoint public test
 {{base_url}}/api/v1/test ->GET
 
 ```
