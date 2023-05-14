@@ -1,38 +1,16 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
+	"log"
+
+	"github.com/gofiber/fiber/v2"
 )
 
-// method for create response api mahasiswa
-func mahasiswa(res *gin.Context) {
-	res.JSON(200, gin.H{
-		"nama": "samsul",
-		"nim":  "f1b118038",
-	})
-}
-
-func universitas(res *gin.Context) {
-	res.JSON(200, gin.H{
-		"name":   "universitas haluoleo",
-		"alamat": "jalan hea mokodompit",
-	})
-}
-
-func fakultas(res *gin.Context) {
-	arr := [5]int{1, 2, 3, 4, 5}
-
-	res.JSON(200, gin.H{
-		"message": "Successfully Data",
-		"data":    arr,
-	})
-}
-
 func main() {
-	req := gin.Default()
-	req.GET("/fakultas", fakultas)
-	req.GET("/universitas", universitas)
-	req.GET("/mahasiswa", mahasiswa)
-	req.Run()
+	app := fiber.New()
+	app.Get("/api/v1/test", func(c *fiber.Ctx) error {
+		return c.Status(200).JSON(fiber.Map{"status": "success", "message": "halo selamat datang di api go halah"})
+	})
 
+	log.Fatal(app.Listen(":3000"))
 }
