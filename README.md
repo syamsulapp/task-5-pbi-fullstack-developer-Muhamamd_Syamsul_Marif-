@@ -38,7 +38,7 @@ https://www.postman.com/downloads/https://www.postman.com/downloads/
 https://insomnia.rest/downloadhttps://insomnia.rest/download
 
 #baseUrl
-localhost:8080 -> sesuaikan dengan base url kalian
+ http://127.0.0.1:3000 -> sesuaikan dengan base url kalian
 
 #endpoint public test
 {{base_url}}/api/v1/test ->GET
