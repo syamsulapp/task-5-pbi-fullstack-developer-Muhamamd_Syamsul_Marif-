@@ -41,10 +41,6 @@ https://insomnia.rest/downloadhttps://insomnia.rest/download
 localhost:8080 -> sesuaikan dengan base url kalian
 
 #endpoint test
-{{base_url}}/universitas ->GET
-#register
-{{base_url}}/fakultas ->GET
-#logout
-{{base_url}}/mahasiswa ->GET
+{{base_url}}/api/v1/test ->GET
 
 ```
